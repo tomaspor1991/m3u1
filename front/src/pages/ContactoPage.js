@@ -1,4 +1,5 @@
 import React from "react"; 
+import './ContactoPage.css';
 const ContactoPage = (props) => {
     return (
         <main className="holder contacto">
@@ -19,14 +20,14 @@ const ContactoPage = (props) => {
                 </p>
                 <p>
                     <label for="mensaje">Mensaje</label>
-                    <input type="textarea" name=""/>
+                    <input type="textarea" name="" width={50} />
                 </p>
                 <p className="acciones"> <input type="submit" value="Enviar"/></p>
 
             </form>
 
         </div>
-        <div classNames="datos">
+        <div className="datos">
             <h2>Otras vias de comunicaion</h2>
             <p>Tambien pueden contactarse con nosotros usando los siguientes medios</p>
             <ul>
